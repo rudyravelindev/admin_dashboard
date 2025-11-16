@@ -7,6 +7,141 @@
     <title>The Admin Dashboard</title>
   </head>
   <body>
-    <h1>Just testing</h1>
+    <div class="container">
+      <aside class="sidebar">
+        <div class="logo">
+          <img
+            src="./assests/monitor-cellphone.svg"
+            alt="Logo"
+            width="32px"
+            height="32px"
+          />
+          <h1>TechWizard</h1>
+        </div>
+        <div class="home">
+          <img src="./assests/home-circle-outline.svg" alt="Logo" />
+          <p>Home</p>
+        </div>
+        <div class="profile">
+          <img src="./assests/face-man-profile.svg" alt="profile" />
+          <p>Profile</p>
+        </div>
+        <div class="messages">
+          <img src="./assests/message-text-outline.svg" />
+          <p>Messages</p>
+        </div>
+        <div class="history">
+          <img src="./assests/history.svg" />
+          <p>History</p>
+        </div>
+        <div class="task">
+          <img src="./assests/calendar-check.svg" />
+          <p>Task</p>
+        </div>
+        <div class="community">
+          <img src="./assests/community.svg" />
+          <p>Community</p>
+        </div>
+        <div class="section3">
+          <div class="settings">
+            <img src="./assests/settings.svg" />
+            <p>Settings</p>
+          </div>
+          <div class="support">
+            <img src="./assests/support.svg" />
+            <p>Support</p>
+          </div>
+          <div class="security">
+            <img src="./assests/security.svg" />
+            <p>Privacy</p>
+          </div>
+        </div>
+      </aside>
+      <header class="header">
+        <!-- Left: Search Bar -->
+        <div class="header-left">
+          <input type="text" class="search-bar" placeholder="Search..." />
+        </div>
+
+        <!-- Right: Notifications, Buttons, User -->
+        <div class="header-right">
+          <!-- Notification Icon -->
+          <button class="icon-btn">
+            <img src="./assests/message-text-outline.svg" alt="Notifications" />
+          </button>
+
+          <!-- Action Buttons -->
+          <div class="action-buttons">
+            <button class="action-btn">New</button>
+            <button class="action-btn">Upload</button>
+            <button class="action-btn">Share</button>
+          </div>
+
+          <!-- User Info -->
+          <div class="user-info">
+            <img
+              src="./assests/face-man-profile.svg"
+              alt="User Avatar"
+              class="avatar"
+            />
+            <p class="username">Admin</p>
+          </div>
+        </div>
+      </header>
+      <main class="main-content">
+        <main class="main-content">
+          <!-- Projects Section -->
+          <div class="projects">
+            <h2>Projects</h2>
+            <div class="project-cards">
+              <div class="project-card">
+                <h3>Project Alpha</h3>
+                <p>Status: In Progress</p>
+              </div>
+              <div class="project-card">
+                <h3>Project Beta</h3>
+                <p>Status: Completed</p>
+              </div>
+              <div class="project-card">
+                <h3>Project Gamma</h3>
+                <p>Status: Pending</p>
+              </div>
+              <div class="project-card">
+                <h3>Project Delta</h3>
+                <p>Status: In Progress</p>
+              </div>
+              <div class="project-card">
+                <h3>Project Epsilon</h3>
+                <p>Status: Completed</p>
+              </div>
+              <div class="project-card">
+                <h3>Project Zeta</h3>
+                <p>Status: Pending</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Announcements Section -->
+          <div class="announcements">
+            <h2>Announcements</h2>
+            <ul>
+              <li>Server maintenance on Friday</li>
+              <li>New dashboard feature released</li>
+              <li>Team meeting at 3 PM</li>
+            </ul>
+          </div>
+
+          <!-- Trending Section -->
+          <div class="trending">
+            <h2>Trending</h2>
+            <ul>
+              <li>Project Alpha reached 75% completion</li>
+              <li>New task assigned to Team Beta</li>
+              <li>Top performing project: Gamma</li>
+            </ul>
+          </div>
+        </main>
+      </main>
+    </div>
   </body>
 </html>
